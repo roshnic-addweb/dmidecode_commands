@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     <style>
+body {
+  background-color: #E6E6FA;
+}
+</style>
+</head>
+<body>
+    <table>
+    {% for key, value in bios.items() %}
+       <tr>
+            <th> {{ key }} </th>
+            <td> {{ value }} </td>
+       </tr>
+    {% endfor %}
+    </table>
+
+</body>
+</html>

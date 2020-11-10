@@ -1,0 +1,50 @@
+{
+   "0x0002": {
+      "Handle": "0x0002",
+      "DMI type": "7, 19 bytes",
+      "Socket Designation:": "L1-Cache",
+      "Configuration": "Enabled, Not Socketed, Level 1",
+      "Operational Mode": "Write Through",
+      "Location": "Internal",
+      "Installed Size": "64 kB",
+      "Maximum Size": "64 kB",
+      "Supported SRAM Types": "Synchronous",
+      "Installed SRAM Type": "Synchronous",
+      "Speed": "Unknown",
+      "Error Correction Type": "Single-bit ECC",
+      "System Type": "Data",
+      "Associativity": "8-way Set-associative"
+   },
+   "0x0003": {
+      "Handle": "0x0003",
+      "DMI type": "7, 19 bytes",
+      "Socket Designation:": "L2-Cache",
+      "Configuration": "Enabled, Not Socketed, Level 2",
+      "Operational Mode": "Write Through",
+      "Location": "Internal",
+      "Installed Size": "256 kB",
+      "Maximum Size": "256 kB",
+      "Supported SRAM Types": "Synchronous",
+      "Installed SRAM Type": "Synchronous",
+      "Speed": "Unknown",
+      "Error Correction Type": "Single-bit ECC",
+      "System Type": "Data",
+      "Associativity": "8-way Set-associative"
+   },
+   "0x0004": {
+      "Handle": "0x0004",
+      "DMI type": "7, 19 bytes",
+      "Socket Designation:": "L3-Cache",
+      "Configuration": "Enabled, Not Socketed, Level 3",
+      "Operational Mode": "Write Back",
+      "Location": "Internal",
+      "Installed Size": "6144 kB",
+      "Maximum Size": "6144 kB",
+      "Supported SRAM Types": "Synchronous",
+      "Installed SRAM Type": "Synchronous",
+      "Speed": "Unknown",
+      "Error Correction Type": "Single-bit ECC",
+      "System Type": "Unified",
+      "Associativity": "12-way Set-associative"
+   }
+}

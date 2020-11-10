@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Dmidecode info</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+body {
+  background-color: #E6E6FA;
+}
+</style>
+</head>
+<p>
+<p><h3><b><i><u>help:</u></i></b></h3></p>
+<table>
+    {% for key, value in abc.items() %}
+       <tr>
+            <th> {{ key }} </th>
+            <td> {{ value }} </td>
+       </tr>
+    {% endfor %}
+    </table>
+</body>
+</html>
